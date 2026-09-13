@@ -5,6 +5,14 @@ from test_cdict_engine import CDict
 
 sys.stdout.reconfigure(encoding="utf-8")
 
+def normalize_bengali(text: str) -> str:
+    import unicodedata
+    t = unicodedata.normalize('NFC', text.strip())
+    t = t.replace('\u09a1\u09bc', '\u09dc')  # ড + ় -> ড়
+    t = t.replace('\u09a2\u09bc', '\u09dd')  # ঢ + ় -> ঢ়
+    t = t.replace('\u09af\u09bc', '\u09df')  # য + ় -> য়
+    return t
+
 def verify():
     dict_path = Path("output/bn.dict")
     assert dict_path.exists(), "output/bn.dict does not exist!"
@@ -12,17 +20,56 @@ def verify():
     cd = CDict(dict_path.read_bytes())
     print("=== Testing main dictionary ===")
     test_words = [
+        # Baseline core vocabulary
         ("আমি", True),
         ("তুমি", True),
         ("ভালোবাসা", True),
         ("বাংলাদেশ", True),
         ("ধন্যবাদ", True),
-        ("অবাকশব্দ", False)
+        ("মা", True),
+        ("বাবা", True),
+        # MinhasKamal BengaliDictionary & WordLists
+        ("অংশীদার", True),
+        ("বাগ্দান", True),
+        ("সুদক্ষ", True),
+        ("অম্লীকরণ", True),
+        ("সঠিকতা", True),
+        # Foysal87 Root words & NLP datasets
+        ("অপনীত", True),
+        ("অংশক", True),
+        ("অঞ্জলি", True),
+        # Inflected & compound forms
+        ("অঙ্গপ্রতিষ্ঠানগুলো", True),
+        ("অঙ্গসংগঠনগুলোর", True),
+        ("অঙ্গপ্রতিষ্ঠানে", True),
+        ("উপজেলার", True),
+        ("ছাত্রীরাও", True),
+        # Nukta recomposed words (ড়, ঢ়, য়)
+        ("হয়ে", True),
+        ("হয়েছে", True),
+        ("বাড়ি", True),
+        ("দৃঢ়", True),
+        ("বাঙালি", True),
+        # Number words
+        ("একশ", True),
+        ("হাজার", True),
+        ("কোটি", True),
+        # Negative test cases (corrupted virama-stripped words & non-words)
+        ("মধযে", False),
+        ("জনয", False),
+        ("হযে", False),
+        ("অবাকশব্দ", False),
+        ("কখগঘঙ", False)
     ]
-    for w, expected in test_words:
+    passed = 0
+    for raw_w, expected in test_words:
+        w = normalize_bengali(raw_w)
         found, idx, target = cd.query("main", w)
-        print(f"  Word '{w}': found={found} (expected {expected}), target='{target}'")
-        assert found == expected, f"Failed word check for {w}"
+        status = "✓ PASS" if found == expected else "✗ FAIL"
+        print(f"  {status}: Word '{raw_w}' -> found={found} (expected {expected})")
+        assert found == expected, f"Failed word check for {raw_w}"
+        passed += 1
+    print(f"[+] All {passed} vocabulary checks passed successfully!")
 
     print("\n=== Testing emoji dictionary shortcuts ===")
     test_emojis = [
