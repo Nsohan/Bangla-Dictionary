@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-RAW_SENTENCES_DIR = Path(__file__).resolve().parent.parent / "raw_data_sources" / "sentences"
+RAW_SENTENCES_DIR = Path(__file__).resolve().parent.parent / "raw_data_sources" / "bangla" / "sentences"
 RAW_SENTENCES_DIR.mkdir(parents=True, exist_ok=True)
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}

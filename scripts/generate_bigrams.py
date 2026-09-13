@@ -23,7 +23,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
         pass
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
-RAW_SENTENCES_DIR = ROOT_DIR / "raw_data_sources" / "sentences"
+RAW_SENTENCES_DIR = ROOT_DIR / "raw_data_sources" / "bangla" / "sentences"
+if not RAW_SENTENCES_DIR.exists():
+    RAW_SENTENCES_DIR = ROOT_DIR / "raw_data_sources" / "sentences"
 SOURCES_DIR = ROOT_DIR / "sources"
 OUTPUT_DIR = ROOT_DIR / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -160,7 +162,9 @@ def build_bigrams():
             raw_text_blocks.extend(extract_sentences_from_json(json_file))
 
     # 2. Ingest CSV files
-    csv_file = ROOT_DIR / "raw_data_sources" / "BengaliDictionary_93..csv"
+    csv_file = ROOT_DIR / "raw_data_sources" / "bangla" / "BengaliDictionary_93..csv"
+    if not csv_file.exists():
+        csv_file = ROOT_DIR / "raw_data_sources" / "BengaliDictionary_93..csv"
     if csv_file.exists():
         raw_text_blocks.extend(extract_sentences_from_csv(csv_file))
 

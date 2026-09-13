@@ -112,6 +112,12 @@ def deploy_to_path(deploy_path: str):
         dest_bigram = dest_dir / "bn_bigrams.bin"
         shutil.copy2(bigram_bin, dest_bigram)
         print(f"[+] Deployed bn_bigrams.bin to: {dest_bigram}")
+
+    en_bigram_bin = OUTPUT_DIR / "en_bigrams.bin"
+    if en_bigram_bin.exists():
+        dest_en_bigram = dest_dir / "en_bigrams.bin"
+        shutil.copy2(en_bigram_bin, dest_en_bigram)
+        print(f"[+] Deployed en_bigrams.bin to: {dest_en_bigram}")
     return True
 
 def main():

@@ -27,13 +27,13 @@ def is_valid_bangla_word(w: str) -> bool:
 
 sources = {
     'bangla_words.combined': 'sources/bangla_words.combined',
-    'Bangla_root_word.txt': 'raw_data_sources/Bangla_root_word.txt',
-    'BengaliDictionary_93..csv': 'raw_data_sources/BengaliDictionary_93..csv',
-    'BengaliWordList_40.txt': 'raw_data_sources/BengaliWordList_40.txt',
-    'BengaliWordList_48.txt': 'raw_data_sources/BengaliWordList_48.txt',
-    'BengaliWordList_112.txt': 'raw_data_sources/BengaliWordList_112.txt',
-    'BengaliWordList_439.txt': 'raw_data_sources/BengaliWordList_439.txt',
-    'bangla_number.txt': 'raw_data_sources/bangla_number.txt'
+    'Bangla_root_word.txt': 'raw_data_sources/bangla/Bangla_root_word.txt',
+    'BengaliDictionary_93..csv': 'raw_data_sources/bangla/BengaliDictionary_93..csv',
+    'BengaliWordList_40.txt': 'raw_data_sources/bangla/BengaliWordList_40.txt',
+    'BengaliWordList_48.txt': 'raw_data_sources/bangla/BengaliWordList_48.txt',
+    'BengaliWordList_112.txt': 'raw_data_sources/bangla/BengaliWordList_112.txt',
+    'BengaliWordList_439.txt': 'raw_data_sources/bangla/BengaliWordList_439.txt',
+    'bangla_number.txt': 'raw_data_sources/bangla/bangla_number.txt'
 }
 
 all_valid = {}

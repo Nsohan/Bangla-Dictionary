@@ -14,7 +14,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 SOURCES_DIR = ROOT_DIR / "sources"
-RAW_DIR = ROOT_DIR / "raw_data_sources"
+RAW_DIR = ROOT_DIR / "raw_data_sources" / "bangla"
+if not RAW_DIR.exists():
+    RAW_DIR = ROOT_DIR / "raw_data_sources"
 OUTPUT_COMBINED = SOURCES_DIR / "bangla_words.combined"
 
 # Bengali character pattern
