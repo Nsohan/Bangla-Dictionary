@@ -1,0 +1,516 @@
+dictionary=Emojis:bn,description=Bangla Banglish and English Emoji Shortcuts,locale=bn,date=1700000000,version=1
+
+# ==============================================================================
+# LOVE & EMOTIONS
+# ==============================================================================
+word=love,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=valobasa,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=valobasha,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=bhalobasa,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=bhalobasha,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=ভালবাসা,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=ভালোবাসা,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=prem,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=প্রেম,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=hridoy,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=হৃদয়,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=maya,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=মায়া,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=poran,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=পরাণ,f=14,not_a_word=true
+ shortcut=❤️,f=14
+word=valobasi,f=14,not_a_word=true
+ shortcut=💕,f=14
+word=ভালোবাসি,f=14,not_a_word=true
+ shortcut=💕,f=14
+word=crush,f=14,not_a_word=true
+ shortcut=💖,f=14
+word=ক্রাশ,f=14,not_a_word=true
+ shortcut=💖,f=14
+word=heartbreak,f=14,not_a_word=true
+ shortcut=💔,f=14
+word=breakup,f=14,not_a_word=true
+ shortcut=💔,f=14
+word=mon_bhanga,f=14,not_a_word=true
+ shortcut=💔,f=14
+word=mon_vanga,f=14,not_a_word=true
+ shortcut=💔,f=14
+word=মনভাঙা,f=14,not_a_word=true
+ shortcut=💔,f=14
+word=kosto,f=14,not_a_word=true
+ shortcut=💔,f=14
+word=koshto,f=14,not_a_word=true
+ shortcut=💔,f=14
+word=কষ্ট,f=14,not_a_word=true
+ shortcut=💔,f=14
+
+# ==============================================================================
+# LAUGHTER & HAPPINESS
+# ==============================================================================
+word=laugh,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=hasi,f=14,not_a_word=true
+ shortcut=😂,f=14
+ shortcut=😀,f=14
+word=hashi,f=14,not_a_word=true
+ shortcut=😂,f=14
+ shortcut=😀,f=14
+word=হাসি,f=14,not_a_word=true
+ shortcut=😂,f=14
+ shortcut=😀,f=14
+word=haha,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=lol,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=funny,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=moja,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=moza,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=মজা,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=thatta,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=ঠাট্টা,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=koutuk,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=কৌতুক,f=14,not_a_word=true
+ shortcut=😂,f=14
+word=rofl,f=14,not_a_word=true
+ shortcut=🤣,f=14
+word=smile,f=14,not_a_word=true
+ shortcut=😀,f=14
+word=khushi,f=14,not_a_word=true
+ shortcut=😀,f=14
+word=খুশি,f=14,not_a_word=true
+ shortcut=😀,f=14
+word=anondo,f=14,not_a_word=true
+ shortcut=😀,f=14
+word=আনন্দ,f=14,not_a_word=true
+ shortcut=😀,f=14
+word=cool,f=14,not_a_word=true
+ shortcut=😎,f=14
+word=osthir,f=14,not_a_word=true
+ shortcut=😎,f=14
+ shortcut=🔥,f=14
+word=অস্থির,f=14,not_a_word=true
+ shortcut=😎,f=14
+ shortcut=🔥,f=14
+word=joss,f=14,not_a_word=true
+ shortcut=😎,f=14
+ shortcut=🔥,f=14
+word=জোস,f=14,not_a_word=true
+ shortcut=😎,f=14
+ shortcut=🔥,f=14
+word=hero,f=14,not_a_word=true
+ shortcut=😎,f=14
+word=হিরো,f=14,not_a_word=true
+ shortcut=😎,f=14
+word=party,f=14,not_a_word=true
+ shortcut=🥳,f=14
+word=utsab,f=14,not_a_word=true
+ shortcut=🥳,f=14
+word=উৎসব,f=14,not_a_word=true
+ shortcut=🥳,f=14
+
+# ==============================================================================
+# FIRE & INTENSITY
+# ==============================================================================
+word=fire,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=agun,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=আগুন,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=lit,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=hot,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=gorom,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=গরম,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=fatafati,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=ফাটাফাটি,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=chomor,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=চরম,f=14,not_a_word=true
+ shortcut=🔥,f=14
+word=hundred,f=14,not_a_word=true
+ shortcut=💯,f=14
+word=eksho,f=14,not_a_word=true
+ shortcut=💯,f=14
+word=একশো,f=14,not_a_word=true
+ shortcut=💯,f=14
+word=১০০,f=14,not_a_word=true
+ shortcut=💯,f=14
+word=shotti,f=14,not_a_word=true
+ shortcut=💯,f=14
+word=সত্যি,f=14,not_a_word=true
+ shortcut=💯,f=14
+word=magic,f=14,not_a_word=true
+ shortcut=✨,f=14
+word=jokjok,f=14,not_a_word=true
+ shortcut=✨,f=14
+word=ঝলক,f=14,not_a_word=true
+ shortcut=✨,f=14
+
+# ==============================================================================
+# SADNESS & CRYING
+# ==============================================================================
+word=cry,f=14,not_a_word=true
+ shortcut=😭,f=14
+word=kanna,f=14,not_a_word=true
+ shortcut=😭,f=14
+word=কান্না,f=14,not_a_word=true
+ shortcut=😭,f=14
+word=kadchi,f=14,not_a_word=true
+ shortcut=😭,f=14
+word=কাঁদছি,f=14,not_a_word=true
+ shortcut=😭,f=14
+word=chokher_jol,f=14,not_a_word=true
+ shortcut=😭,f=14
+word=চোখের_জল,f=14,not_a_word=true
+ shortcut=😭,f=14
+word=sad,f=14,not_a_word=true
+ shortcut=😢,f=14
+word=dukho,f=14,not_a_word=true
+ shortcut=😢,f=14
+word=dukkho,f=14,not_a_word=true
+ shortcut=😢,f=14
+word=দুঃখ,f=14,not_a_word=true
+ shortcut=😢,f=14
+word=mon_kharap,f=14,not_a_word=true
+ shortcut=😢,f=14
+word=মন_খারাপ,f=14,not_a_word=true
+ shortcut=😢,f=14
+
+# ==============================================================================
+# ANGER & FRUSTRATION
+# ==============================================================================
+word=angry,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=rag,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=রাগ,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=ragi,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=রাগী,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=gussa,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=গোস্বা,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=krodh,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=ক্রোধ,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=matha_gorom,f=14,not_a_word=true
+ shortcut=😡,f=14
+word=মাথা_গরম,f=14,not_a_word=true
+ shortcut=😡,f=14
+
+# ==============================================================================
+# APPROVAL & GESTURES
+# ==============================================================================
+word=like,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=good,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=bhalo,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=valo,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=ভালো,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=ভাল,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=thik,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=ঠিক,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=thik_ache,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=ঠিক_আছে,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=shabash,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=সাবাশ,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=darun,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=দারুণ,f=14,not_a_word=true
+ shortcut=👍,f=14
+word=dislike,f=14,not_a_word=true
+ shortcut=👎,f=14
+word=kharap,f=14,not_a_word=true
+ shortcut=👎,f=14
+word=খারাপ,f=14,not_a_word=true
+ shortcut=👎,f=14
+word=baje,f=14,not_a_word=true
+ shortcut=👎,f=14
+word=বাজে,f=14,not_a_word=true
+ shortcut=👎,f=14
+word=ok,f=14,not_a_word=true
+ shortcut=👌,f=14
+word=perfect,f=14,not_a_word=true
+ shortcut=👌,f=14
+word=sothik,f=14,not_a_word=true
+ shortcut=👌,f=14
+word=সঠিক,f=14,not_a_word=true
+ shortcut=👌,f=14
+word=peace,f=14,not_a_word=true
+ shortcut=✌️,f=14
+word=victory,f=14,not_a_word=true
+ shortcut=✌️,f=14
+word=joy,f=14,not_a_word=true
+ shortcut=✌️,f=14
+word=জয়,f=14,not_a_word=true
+ shortcut=✌️,f=14
+word=shanti,f=14,not_a_word=true
+ shortcut=✌️,f=14
+word=শান্তি,f=14,not_a_word=true
+ shortcut=✌️,f=14
+word=pray,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=prarthona,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=প্রার্থনা,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=dua,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=dowa,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=দোয়া,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=দুআ,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=namaz,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=namaj,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=নামাজ,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=munajat,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=মোনাজাত,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=dhonnobad,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=ধন্যবাদ,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=please,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=doya_kore,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=দয়া_করে,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=nomoshkar,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=নমস্কার,f=14,not_a_word=true
+ shortcut=🙏,f=14
+word=friend,f=14,not_a_word=true
+ shortcut=🤝,f=14
+word=bondhu,f=14,not_a_word=true
+ shortcut=🤝,f=14
+word=বন্ধু,f=14,not_a_word=true
+ shortcut=🤝,f=14
+word=dost,f=14,not_a_word=true
+ shortcut=🤝,f=14
+word=দোস্ত,f=14,not_a_word=true
+ shortcut=🤝,f=14
+word=shathi,f=14,not_a_word=true
+ shortcut=🤝,f=14
+word=সাথী,f=14,not_a_word=true
+ shortcut=🤝,f=14
+word=clap,f=14,not_a_word=true
+ shortcut=👏,f=14
+word=tali,f=14,not_a_word=true
+ shortcut=👏,f=14
+word=তালি,f=14,not_a_word=true
+ shortcut=👏,f=14
+
+# ==============================================================================
+# FOOD & DRINKS
+# ==============================================================================
+word=tea,f=14,not_a_word=true
+ shortcut=☕,f=14
+word=cha,f=14,not_a_word=true
+ shortcut=☕,f=14
+word=চা,f=14,not_a_word=true
+ shortcut=☕,f=14
+word=coffee,f=14,not_a_word=true
+ shortcut=☕,f=14
+word=কফি,f=14,not_a_word=true
+ shortcut=☕,f=14
+word=food,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=khabar,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=খাবার,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=khana,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=খানা,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=khabo,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=খাবো,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=burger,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=বার্গার,f=14,not_a_word=true
+ shortcut=🍔,f=14
+word=pizza,f=14,not_a_word=true
+ shortcut=🍕,f=14
+word=পিজ্জা,f=14,not_a_word=true
+ shortcut=🍕,f=14
+word=chocolate,f=14,not_a_word=true
+ shortcut=🍫,f=14
+word=চকলেট,f=14,not_a_word=true
+ shortcut=🍫,f=14
+word=misti,f=14,not_a_word=true
+ shortcut=🍫,f=14
+word=mishti,f=14,not_a_word=true
+ shortcut=🍫,f=14
+word=মিষ্টি,f=14,not_a_word=true
+ shortcut=🍫,f=14
+word=mango,f=14,not_a_word=true
+ shortcut=🥭,f=14
+word=aam,f=14,not_a_word=true
+ shortcut=🥭,f=14
+word=আম,f=14,not_a_word=true
+ shortcut=🥭,f=14
+word=birthday,f=14,not_a_word=true
+ shortcut=🎂,f=14
+word=jonmodin,f=14,not_a_word=true
+ shortcut=🎂,f=14
+word=জন্মদিন,f=14,not_a_word=true
+ shortcut=🎂,f=14
+word=cake,f=14,not_a_word=true
+ shortcut=🎂,f=14
+word=কেক,f=14,not_a_word=true
+ shortcut=🎂,f=14
+
+# ==============================================================================
+# MONEY & WEALTH
+# ==============================================================================
+word=money,f=14,not_a_word=true
+ shortcut=💰,f=14
+word=taka,f=14,not_a_word=true
+ shortcut=💰,f=14
+word=টাকা,f=14,not_a_word=true
+ shortcut=💰,f=14
+word=poisa,f=14,not_a_word=true
+ shortcut=💰,f=14
+word=পয়সা,f=14,not_a_word=true
+ shortcut=💰,f=14
+word=cash,f=14,not_a_word=true
+ shortcut=💰,f=14
+word=ক্যাশ,f=14,not_a_word=true
+ shortcut=💰,f=14
+word=dollar,f=14,not_a_word=true
+ shortcut=💵,f=14
+word=ডলার,f=14,not_a_word=true
+ shortcut=💵,f=14
+
+# ==============================================================================
+# NATURE, TIME & OBJECTS
+# ==============================================================================
+word=sun,f=14,not_a_word=true
+ shortcut=☀️,f=14
+word=shurjo,f=14,not_a_word=true
+ shortcut=☀️,f=14
+word=সূর্য,f=14,not_a_word=true
+ shortcut=☀️,f=14
+word=rod,f=14,not_a_word=true
+ shortcut=☀️,f=14
+word=রোদ,f=14,not_a_word=true
+ shortcut=☀️,f=14
+word=moon,f=14,not_a_word=true
+ shortcut=🌙,f=14
+word=chand,f=14,not_a_word=true
+ shortcut=🌙,f=14
+word=চাঁদ,f=14,not_a_word=true
+ shortcut=🌙,f=14
+word=rat,f=14,not_a_word=true
+ shortcut=🌙,f=14
+word=রাত,f=14,not_a_word=true
+ shortcut=🌙,f=14
+word=star,f=14,not_a_word=true
+ shortcut=⭐,f=14
+word=tara,f=14,not_a_word=true
+ shortcut=⭐,f=14
+word=তারা,f=14,not_a_word=true
+ shortcut=⭐,f=14
+word=rain,f=14,not_a_word=true
+ shortcut=🌧️,f=14
+word=brishti,f=14,not_a_word=true
+ shortcut=🌧️,f=14
+word=বৃষ্টি,f=14,not_a_word=true
+ shortcut=🌧️,f=14
+word=borsha,f=14,not_a_word=true
+ shortcut=🌧️,f=14
+word=বর্ষা,f=14,not_a_word=true
+ shortcut=🌧️,f=14
+word=rose,f=14,not_a_word=true
+ shortcut=🌹,f=14
+word=golap,f=14,not_a_word=true
+ shortcut=🌹,f=14
+word=গোলাপ,f=14,not_a_word=true
+ shortcut=🌹,f=14
+word=flower,f=14,not_a_word=true
+ shortcut=🌹,f=14
+word=ful,f=14,not_a_word=true
+ shortcut=🌹,f=14
+word=ফুল,f=14,not_a_word=true
+ shortcut=🌹,f=14
+word=sleep,f=14,not_a_word=true
+ shortcut=😴,f=14
+word=ghum,f=14,not_a_word=true
+ shortcut=😴,f=14
+word=ঘুম,f=14,not_a_word=true
+ shortcut=😴,f=14
+word=ghumai,f=14,not_a_word=true
+ shortcut=😴,f=14
+word=ঘুমাই,f=14,not_a_word=true
+ shortcut=😴,f=14
+word=car,f=14,not_a_word=true
+ shortcut=🚗,f=14
+word=gari,f=14,not_a_word=true
+ shortcut=🚗,f=14
+word=গাড়ি,f=14,not_a_word=true
+ shortcut=🚗,f=14
+word=bike,f=14,not_a_word=true
+ shortcut=🏍️,f=14
+word=বাইক,f=14,not_a_word=true
+ shortcut=🏍️,f=14
+word=football,f=14,not_a_word=true
+ shortcut=⚽,f=14
+word=khela,f=14,not_a_word=true
+ shortcut=⚽,f=14
+word=খেলা,f=14,not_a_word=true
+ shortcut=⚽,f=14
+word=cricket,f=14,not_a_word=true
+ shortcut=🏏,f=14
+word=ক্রিকেট,f=14,not_a_word=true
+ shortcut=🏏,f=14

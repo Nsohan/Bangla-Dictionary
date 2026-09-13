@@ -1,0 +1,7 @@
+# bn.dict Python Requirements
+#
+# ZERO external dependencies required!
+# All scripts (build.py, cdict_compiler.py, verify_bn_dict.py) use the Python standard library.
+#
+# Minimum Requirements:
+# Python 3.8 or newer
