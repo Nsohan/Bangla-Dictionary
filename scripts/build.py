@@ -96,17 +96,22 @@ def verify_dict():
 import argparse
 
 def deploy_to_path(deploy_path: str):
-    """Copy the compiled bn.dict to a specified output directory."""
-    if not OUTPUT_DICT.exists():
-        return False
+    """Copy the compiled bn.dict and bn_bigrams.bin to a specified output directory."""
     dest_dir = Path(deploy_path)
     if dest_dir.is_file():
-        dest = dest_dir
-    else:
-        dest_dir.mkdir(parents=True, exist_ok=True)
-        dest = dest_dir / "bn.dict"
-    shutil.copy2(OUTPUT_DICT, dest)
-    print(f"[+] Deployed to: {dest}")
+        dest_dir = dest_dir.parent
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    
+    if OUTPUT_DICT.exists():
+        dest_dict = dest_dir / "bn.dict"
+        shutil.copy2(OUTPUT_DICT, dest_dict)
+        print(f"[+] Deployed bn.dict to: {dest_dict}")
+
+    bigram_bin = OUTPUT_DIR / "bn_bigrams.bin"
+    if bigram_bin.exists():
+        dest_bigram = dest_dir / "bn_bigrams.bin"
+        shutil.copy2(bigram_bin, dest_bigram)
+        print(f"[+] Deployed bn_bigrams.bin to: {dest_bigram}")
     return True
 
 def main():
